@@ -18,17 +18,21 @@
 html,
 body {
     height: 100vh;
-    background-color: rgb(215, 216, 220);
+    background-color: black
 }
 
 
 .navbar {
     /* width: 100%; */
-    background-color: lightgray;
+    background-color: black;
     /* padding: 1rem; */
     display: flex;
     justify-content: space-between;
 
+}
+
+h1 {
+    color: var(--white);
 }
 
 .navbar ul li a {
@@ -52,15 +56,15 @@ a {
 }
 
 a:link {
-    color: var(--black);
+    color: var(--white);
 }
 
 a:visited {
-    color: var(--black);
+    color: var(--white);
 }
 
 
 .navbar .left li a:hover {
-    background-color: var(--black);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--black);
 }
